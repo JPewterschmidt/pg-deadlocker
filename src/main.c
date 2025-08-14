@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-const char* conninfo = "host=localhost port=5432 dbname=postgres password=shit";
+const char* conninfo = "host=localhost port=5432 dbname=postgres password=gold";
 
 thread_local const char* thrname;
 thread_local bool err_occured = false;

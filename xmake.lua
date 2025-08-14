@@ -1,11 +1,8 @@
 add_rules("mode.debug", "mode.release")
 
-add_requires("tbox")
-
 target("pg-deadlocker")
     set_kind("binary")
     add_files("src/*.c")
-    add_packages("tbox")
     add_syslinks("pq")
 
 --
